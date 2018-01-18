@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicQueueTriggerApp", "BasicQueueTriggerApp\BasicQueueTriggerApp.csproj", "{023E2126-9ECA-4D1D-909E-0F9C33AA83F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{023E2126-9ECA-4D1D-909E-0F9C33AA83F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{023E2126-9ECA-4D1D-909E-0F9C33AA83F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{023E2126-9ECA-4D1D-909E-0F9C33AA83F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{023E2126-9ECA-4D1D-909E-0F9C33AA83F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3243994-A824-45B5-83CC-5AAC2905371E}
+	EndGlobalSection
+EndGlobal
