@@ -7,7 +7,7 @@ namespace StockQueueCreator
 {
     public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             const string url = "https://functionsbatchapps01.blob.core.windows.net/sample/japan-all-stock-prices_20170104.csv";
 
