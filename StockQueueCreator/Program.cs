@@ -33,7 +33,7 @@ namespace StockQueueCreator
                 {
                     Console.WriteLine($"Ticker: {p.Ticker}, Price: {p.Price}");
 
-                    if (p.Volume != "-")
+                    if (p.Price != "-" && p.Volume != "-")
                     {
                         var message = new CloudQueueMessage(JsonConvert.SerializeObject(p));
                         queue.AddMessageAsync(message).Wait();
