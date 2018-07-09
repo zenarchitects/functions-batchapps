@@ -1,14 +1,14 @@
 using Microsoft.Azure.WebJobs;
-using Microsoft.Azure.WebJobs.Host;
+using Microsoft.Extensions.Logging;
 
 namespace AajpFunctions
 {
     public static class BasicQueueTrigger
     {
         [FunctionName("BasicQueueTrigger")]
-        public static void Run([QueueTrigger("basic-queue-items")]string myQueueItem, TraceWriter log)
+        public static void Run([QueueTrigger("basic-queue-items")]string myQueueItem, ILogger log)
         {
-            log.Info($"C# Queue trigger function processed: {myQueueItem}");
+            log.LogInformation("C# Queue trigger function processed: {myQueueItem}", myQueueItem);
         }
     }
 }
